@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(where:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(git lfs:*)",
+      "Bash(git -C \"e:/websites/preframe.baseaim.co\" lfs ls-files:*)"
+    ]
+  }
+}
