@@ -27,7 +27,11 @@ export default function PreframePage() {
           </div>
 
           <div className="mb-16 md:mb-20">
-            <VideoPlayer src="/videos/preframe.mp4" />
+            <VideoPlayer
+              src="/videos/preframe-optimized.mp4"
+              webmSrc="/videos/preframe.webm"
+              poster="/videos/preframe-poster.jpg"
+            />
           </div>
 
           <div className="text-center mb-8">
